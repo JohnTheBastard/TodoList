@@ -6,7 +6,7 @@ const Todo = ({ onClick, completed, text }) =>
 </li>
 
 const propTypes = {
-  onClick: React.PropTypes.func.isRequired
+  onClick: React.PropTypes.func.isRequired,
   completed: React.PropTypes.bool.isRequired,
   text: React.PropTypes.string.isRequired
 }
